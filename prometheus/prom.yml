@@ -7,7 +7,7 @@ scrape_configs:
       - targets: ['localhost:9090']
   - job_name: '001-main-app'
     static_configs:
-      - targets: ['001_alpha:9091']
+      - targets: ['001_alpha.railway.internal:9091']
 
   # - job_name: 'example_api'
   #   scheme: http

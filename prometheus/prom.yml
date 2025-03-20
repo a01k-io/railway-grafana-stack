@@ -8,7 +8,7 @@ scrape_configs:
   - job_name: '001-main-app'
     scheme: http
     static_configs:
-      - targets: ['001alpha-production.up.railway.app']
+      - targets: ['001alpha-production.up.railway.app:443']
 
   # - job_name: 'example_api'
   #   scheme: http

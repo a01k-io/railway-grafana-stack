@@ -5,6 +5,9 @@ scrape_configs:
   - job_name: 'prometheus'
     static_configs:
       - targets: ['localhost:9090']
+  - job_name: '001-main-app'
+    static_configs:
+      - targets: ['001alpha-production.up.railway.app']
 
   # - job_name: 'example_api'
   #   scheme: http
